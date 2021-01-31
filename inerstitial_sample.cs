@@ -1,8 +1,7 @@
 public static class AdUtils 
 {
-    public  static string publisherAddress = "MeruemGames";// publisher_id
-    public static string pluginName = "com.grailads.unitygrailadsplugin.PrintUtils";
-    public  static string publisherAppID = "MeruemGames_1"; //app_id  
+    public  static string publisherAddress = "";// publisher_id
+    public  static string publisherAppID = ""; //app_id  
     
     public  static string env= "TEST"; 
     // Start is called before the first frame update
@@ -10,7 +9,6 @@ public static class AdUtils
 
     
     public static void RequestAndLoadInterstitial() {
-        interstitial_loaded = false;
         grailAdsInterstitial = new GrailAdsInterstitial(publisherAddress , publisherAppID , env);
         
         grailAdsInterstitial.OnAdLoaded += HandleInterstitialOnAdLoaded;
