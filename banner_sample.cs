@@ -1,7 +1,7 @@
 public static class AdUtils 
 {
-    public  static string publisherAddress = "MeruemGames";// publisher_id
-    public  static string publisherAppID = "MeruemGames_1"; //app_id  
+    public  static string publisherAddress = "";// publisher_id
+    public  static string publisherAppID = ""; //app_id  
 
     public  static string env= "TEST"; 
     public  static GrailAdsBanner grailAdsBanner;
